@@ -1,9 +1,10 @@
 ﻿
 //Create a .NET console application to send messages from the queue in Azure ServiceBus.
 using Azure.Messaging.ServiceBus;
+using System;
 
 // connection string to your Service Bus namespace
-string connectionString = "ConnectionString";
+string connectionString = Environment.GetEnvironmentVariable("connectionString");
 
 // name of your Service Bus topic
 string queueName = "az204-queue";
