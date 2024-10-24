@@ -47,5 +47,3 @@ finally
 }
 
 Console.WriteLine("Follow the directions in the exercise to review the results in the Azure portal.");
-Console.WriteLine("Press any key to continue");
-Console.ReadKey();
